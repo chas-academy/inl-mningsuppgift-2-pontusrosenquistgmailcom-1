@@ -32,7 +32,7 @@ export function initSearch(people) { // rör ej denna rad
 
     }
     if(!boolFound){
-      htmlDisplayResult.innerHTML = "Namn hittades inte"
+      htmlDisplayResult.innerHTML = "Namn hittades inte."
       htmlDisplayResult.style.color = "red"
     }
     
